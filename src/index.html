@@ -16,23 +16,23 @@
 
     <div class="work">
         <h1>Work</h1>
-        <p id="workTimer">00:00</p>
+        <p id="workTimerCount">00:00</p>
     </div>
     
     <div class="rest">
         <h1>Rest</h1>
-        <p id="restTimer">00:00</p>
+        <p id="restTimerCount">00:00</p>
     </div>
 
     <div class="controls">
-        <button class="startStop">
-            <span class="material-symbols-outlined">
+        <button id="startTimer" class="startStop" onclick="timerStart()">
+            <span  class="material-symbols-outlined">
                 play_circle
                 </span>
             
         </button>
-        <button class="reset">
-            <span class="material-symbols-outlined">
+        <button id="resetTimer" class="reset" onclick="timerReset()">
+            <span  class="material-symbols-outlined">
                 restart_alt
             </span>
         </button>
